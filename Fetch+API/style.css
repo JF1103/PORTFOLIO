@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #6241f1;
+    box-sizing: border-box;
+}
+
+#characters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+
+.card {
+    border: 3px solid;
+    margin: 0.5rem;
+    padding: .6rem;
+    text-align: center;
+    background: #2E4053;
+    cursor: pointer;
+}
+
+
+.card p {
+    font-size: 2rem;
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    background-color:#87caf7;
+}
+
+.button {
+    font-size: 1rem;
+    background: #6241f1;
+    font-weight: bold;
+    color: #fff;
+    margin: 20px;
+    padding: 10px 0px;
+    width: 250px;
+    box-shadow: 0px 3px 0px rgb(4, 44, 82);  
+    cursor: pointer;  
+}
+
+.button:hover {
+   box-shadow: 0px 0px 0px;
+}
